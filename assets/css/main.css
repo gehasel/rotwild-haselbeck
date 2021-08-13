@@ -2620,8 +2620,8 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 2.5rem 0;
-			width: 100%;
+			margin: auto;
+			width: 50%;
 		}
 
 			.image.fit:first-child {
@@ -2649,7 +2649,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.image.fit {
-				margin: 2rem 0;
+				margin: auto;
+				width: 75%;
 			}
 
 			.image.main {
@@ -2851,10 +2852,6 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 		padding-left: 1rem;
 	}
-
-		ul li {
-			padding-left: 0.5rem;
-		}
 
 		ul.divided {
 			list-style: none;
@@ -4693,5 +4690,10 @@ input, select, textarea {
 /* --- Georgs CSS */
 
 .date {
+	font-size: 1rem;
 	font-style: italic;
+}
+
+.preise {
+	font-size: 2rem;
 }
